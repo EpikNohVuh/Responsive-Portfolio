@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+
+
+
+body {
+  background-image: url("../images/Background.gif");
+}
+
+.main {
+  height: 100vh;
+}
+
+.palmtrees01 {
+  padding-right: 20px;
+}
+
+.signature {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 1px 1px #f8f8ff;
+}
+
+.container-fluid {
+  background: #bdd5ff;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  display: block;
+  background: transparent;
+  padding: 8px;
+  margin: 20px 20px 20px 0;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.Int-Background {
+  background-color: #f8f9fa;
+  background: white;
+  width: 100%;
+  height: auto;
+}
+.logo {
+  background-color: rgb(148, 185, 250);
+  padding: 20px;
+  margin-left: 75px;
+}
+.image-wrapper {
+  padding: 0 20px 20px 20px;
+}
+.palmtrees02 {
+  position: absolute;
+  right: 0px;
+  bottom: -180px;
+  width: 220px;
+}
+.gallery {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.gallery-img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.gallery h3 {
+  background: #d6deff;
+  box-shadow: grey;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  margin-left: 15px;
+}
+#footer {
+  background-color: #bdd5ff;
+  padding: 20px;
+}
+
+.col-med-12 {
+  height: 100%;
+ }
+
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .palmtrees02 {
+    width: 150px;
+  }
+  .palmtrees01 {
+    display:none;
+  }
+  .signature {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px #f8f8ff;
+  }
+@media screen and (max-width: 500px) {
+  li{
+    display: inline;
+  }
+  .palmtrees02 {
+    display:none;
+  }
+  .portrait {
+    width: 125px;
+    height: 125px;
+  }
+  .main {
+    height: 100vh;
+    margin-bottom:200px;
+  }
+}
