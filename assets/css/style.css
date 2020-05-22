@@ -4,10 +4,11 @@
 
 body {
   background-image: url("../images/Background.gif");
+  position: relative;
 }
 
 .main {
-  height: 100vh;
+  min-height: calc(100vh - 10px);
 }
 
 .palmtrees01 {
@@ -65,7 +66,7 @@ h4 {
 .palmtrees02 {
   position: absolute;
   right: 0px;
-  bottom: -180px;
+  bottom: -131px;
   width: 220px;
 }
 .gallery {
@@ -94,6 +95,8 @@ h4 {
 }
 #footer {
   background-color: #bdd5ff;
+  position: absolute;
+  width: 100%;
   padding: 20px;
 }
 
@@ -118,6 +121,7 @@ h4 {
     font-weight: bold;
     text-shadow: 1px 1px #f8f8ff;
   }
+}
 @media screen and (max-width: 500px) {
   li{
     display: inline;
@@ -128,9 +132,5 @@ h4 {
   .portrait {
     width: 125px;
     height: 125px;
-  }
-  .main {
-    height: 100vh;
-    margin-bottom:200px;
   }
 }
